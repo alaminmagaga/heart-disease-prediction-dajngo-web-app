@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 from pathlib import Path
 import os
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -26,7 +27,7 @@ SECRET_KEY = 'django-insecure-##*o1+5$z0_*16u)+qi3=-5nu3m7#)37mj-$mj7diat$-vgs9)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['heart-disease23.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -126,7 +127,12 @@ STATICFILES_DIRS=(
     os.path.join(BASE_DIR,'static'),
 )
 
+<<<<<<< HEAD
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+=======
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+>>>>>>> b84a986942c96461190ceded615495a96222903d
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
