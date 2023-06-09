@@ -23,15 +23,33 @@ The Heart Disease Prediction Web App is designed to provide users with an estima
 ## Installation
 1. Clone the repository:
  ```
- git clone https://github.com/alaminmagaga/heart-disease-prediction-dajngo-web-app.git
+ git clone https://github.com/alaminmagaga/heart-disease-prediction-django-web-app.git
  ```
-3. Navigate to the project directory: `cd heart-disease-prediction-web-app`
-4. Create a virtual environment: `python -m venv venv`
-5. Activate the virtual environment:
-   - For Windows: `venv\Scripts\activate`
-   - For Unix or Linux: `source venv/bin/activate`
-6. Install the required dependencies: `pip install -r requirements.txt`
-7. Run the application: `python manage.py runserver`
+3. Navigate to the project directory: 
+```
+cd heart-disease-prediction-django-web-app
+```
+5. Create a virtual environment: 
+```
+python -m venv venv
+```
+7. Activate the virtual environment:
+   - For Windows: 
+    ```
+    venv\Scripts\activate
+    ```
+   - For Unix or Linux: 
+    ```
+    source venv/bin/activate
+    ```
+8. Install the required dependencies: 
+ ```
+ pip install -r requirements.txt
+ ```
+10. Run the application: 
+ ```
+ python manage.py runserver
+ ```
 
 ## Usage
 1. Open your web browser and go to `http://localhost:8000` (or the appropriate address and port).
@@ -53,5 +71,3 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 4. Push the branch to your forked repository: `git push origin feature-name`
 5. Submit a pull request to the original repository.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
